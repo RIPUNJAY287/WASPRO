@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile_black_icon"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/nav_addissue"
+            android:icon="@drawable/add_issue_icon"
+            android:title="Add Issue" />
+        <item
+            android:id="@+id/nav_issue"
+            android:icon="@drawable/issue_icon"
+            android:title="Current Issues" />
+        <item
+            android:id="@+id/nav_resolved"
+            android:icon="@drawable/resolved_icon"
+            android:title="Resolved Issue" />
+
+
+
+
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/setting"
+            android:title="Setting" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about_icon"
+            android:title="About Us" />
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/help_icon"
+            android:title="Help" />
+
+    </group>
+</menu>

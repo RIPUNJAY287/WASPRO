@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_profile">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.waspro.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+
+    </fragment>
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.waspro.ui.profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile">
+
+    </fragment>
+    <fragment
+        android:id="@+id/nav_addissue"
+        android:name="com.example.waspro.ui.add_issue.AddissueFrag"
+        android:label="Add Issue"
+        tools:layout="@layout/fragment_addissue">
+
+    </fragment>
+    <fragment
+        android:id="@+id/nav_issue"
+        android:name="com.example.waspro.ui.issues.IssueFragment"
+        android:label="All Issues"
+        tools:layout="@layout/fragment_issue">
+
+    </fragment>
+    <fragment
+        android:id="@+id/nav_resolved"
+        android:name="com.example.waspro.ui.resolved_issue.ResolvedFragment"
+        android:label="Resolved Issue"
+        tools:layout="@layout/fragment_resolved">
+
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="com.example.waspro.ui.main_setting.MainSetting"
+        android:label="@string/action_settings"
+        tools:layout="@layout/fragment_main_setting">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.waspro.ui.about.AboutFragment"
+        android:label="@string/about"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.waspro.ui.help.HelpFragment"
+        android:label="@string/help"
+        tools:layout="@layout/fragment_help" >
+
+    </fragment>
+</navigation>
