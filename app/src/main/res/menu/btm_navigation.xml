@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/home"
+        android:title="home"
+        android:enabled="true"
+        android:icon="@drawable/home_icon"
+        app:cnb_backgroundColor="@color/colorPrimary"
+        app:cnb_iconColor="#FFFFFf"
+        app:cnb_textColor="#FFFFFF"
+        />
+        <item
+        android:id="@+id/setting"
+        android:title="Issue"
+            android:enabled="true"
+        android:icon="@drawable/issue_icon"
+            app:cnb_backgroundColor="#FF8080"
+            app:cnb_iconColor="#FFFFFF"
+            app:cnb_textColor="#FFFFFF"
+            />
+    <item
+        android:id="@+id/profile"
+        android:title="profile"
+        android:enabled="true"
+        android:icon="@drawable/profile_black_icon"
+        app:cnb_backgroundColor="#66b3ff"
+        app:cnb_iconColor="#FFFFFF"
+        app:cnb_textColor="#FFFFFF"
+        />
+
+</menu>
